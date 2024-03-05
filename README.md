@@ -1,8 +1,13 @@
 # 🇧🇷 Mapeamento de zonas homólogas com base em dados hidroquímicos de um aquífero freático sujeito a contaminação por fossas em área peri-urbana de Campinas utilizando algoritmos de aprendizado de máquina
-
+## Visão Geral
 Esse repositório é referente ao meu projeto de Iniciação Científica da Universidade Estadual de Campinas (UNICAMP) e financiado pela PIBIC.
 
 Para uma explicação detalhada do projeto, acesse a subpasta [docs](./docs) desse repositório. Nela, você encontrará o [Relatório Final da Iniciação](.docs/2023_03_PIBIC_RelatórioFinal_DiegoMachado.pdf) Científica e o [banner de apresenntação](.docs/2023_07_PIBIC_Congresso_DiegoXavier.pdf) no XXXI Congresso de Iniciação Científica da Unicamp.
+
+## Funcionamento
+O presente repositório deve ser rodado via Google Colab devido ao sistema de importação dos arquivos. Além disso, deve ser solicitado o acesso aos dados presentes na pasta do Google Drive onde estão salvos os projetos.
+
+A pasta [raw](.data/raw) contém os documentos nos quais foram extraídos os dados utilizados nesse projeto. Esses dados foram cedidos pelo Instituto de Geociêncais da UNICAMP e, como foram entregues em diversos formatos, como `.pdf`, `.docx`, e `.xlsx`, precisaram ser formatados para uma base de dados unificada e em formato `.csv`. Essa base unificada completa e utilizada no projeto encontra-se em [tabela_coletas.csv](.data/processed/tabela_coletas.csv). Além disso, após uma filtragem feita com ajuda da professora orientadora (ver [Relatório Final da Iniciação](.docs/2023_03_PIBIC_RelatórioFinal_DiegoMachado.pdf) para mais detalhes), foi criada uma nova base com uma dimensão resuzida ([df_final.csv](.data/processed/df_final.csv)), que foi submetida aos algoritmos de aprendizado de máquina não supervisionado para agrupamento.
 
 ## Resumo da Introdução
 As águas subterrâneas representam a maior parte da água disponível para o consumo humano e, no Estado de São Paulo, o uso dessa fonte  vem crescendo substancialmente nos últimos anos. Mediante a presente situação, mostra-se fundamental o monitoramento da qualidade das águas subterrâneas para preservá-las contra possíveis contaminações e evitar situações de risco à saúde da população que usa dessas águas.
