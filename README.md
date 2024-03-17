@@ -27,5 +27,5 @@ A partir da base de dados tratada, foram testados três algoritmos de aprendizad
 - DBSCAN
 E todos os algoritmos testados foram submetidos a métricas de avaliação dos algoritmos, sendo as métricas: Método da Silhueta, índice de Calinski-Harabasz e o índice de Davies–Bouldin.
 
-## Resumo da Conclusaão
+## Resumo da Conclusão
 Contudo, os testes resultaram em agrupamentos diferentes dentre os algoritmos utilizados, e também apresentaram resultados diferentes para um mesmo algoritmo quando analisado em períodos diferentes do ano. Portanto, os resultados apresentaram-se inconclusivos para o agrupamento das amostras de águas com base nos dados hidrogeoquímicos a partir da abordagem utilizada. Como hipótese, é discutível que o problema continha um pequeno espaço amostral, em relação à dimensão do problema, para o treinamento dos algoritmos de aprendizado de máquina utilizados. Outra hipótese levantada é a respeito da complexidade do problema, no qual uma análise hidrogeológica apenas pelas características físico-químicas das amostras não é suficiente para uma execução eficiente dos algoritmos.
