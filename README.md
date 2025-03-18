@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/Python-yellow?logo=python) ![Static Badge](https://img.shields.io/badge/data%20science-green) ![Static Badge](https://img.shields.io/badge/machine%20learning-blue)
+
+
 # 🇧🇷 Mapeamento de zonas homólogas com base em dados hidroquímicos de um aquífero freático sujeito a contaminação por fossas em área peri-urbana de Campinas utilizando algoritmos de aprendizado de máquina
 ## Visão Geral
 Esse repositório é referente ao meu projeto de Iniciação Científica da Universidade Estadual de Campinas (UNICAMP) e financiado pela PIBIC.
