@@ -14,6 +14,10 @@ A pasta [raw](./data/raw) contém os documentos nos quais foram extraídos os da
 ## Resumo da Introdução
 As águas subterrâneas representam a maior parte da água disponível para o consumo humano e, no Estado de São Paulo, o uso dessa fonte  vem crescendo substancialmente nos últimos anos. Mediante a presente situação, mostra-se fundamental o monitoramento da qualidade das águas subterrâneas para preservá-las contra possíveis contaminações e evitar situações de risco à saúde da população que usa dessas águas.
 
+<div>
+  <img align="center" alt="" height="400" width="700" src="https://github.com/user-attachments/assets/ed2e2525-e190-4a57-a239-18ee7d1118f5">
+</div>
+
 A classificação da qualidade da água e de suas naturezas hidroquímicas são realizadas pelo conhecimento de especialistas. Porém, essa abordagem apresenta limitações para o estudo de sistemas subterrâneos complexos ou estudos em grande escala, regionais ou nacionais.
 
 Nesse contexto de saúde pública, o presente projeto propõe aplicar, comparar e avaliar algoritmos aprendizado de máquina não-supervisionado para fazer um agrupamento dos dados coletados pelo Instituto de Geociências da Unicamp (IG) de águas subterrâneas da região do Piracambaia II, localizada ao norte do município de Campinas (SP), que foram objetos de estudo para a dissertação de mestrado Alencar. 
